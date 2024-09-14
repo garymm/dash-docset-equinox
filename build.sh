@@ -44,7 +44,7 @@ doc2dash -f -d ./ \
   --online-redirect-url https://docs.kidger.site/equinox/ \
   --name "${PROJ_NAME}" \
   --icon "${REPO_DIR}/docs/_static/favicon.png" \
-  --index-page "${HTML_DIR}/index.html" \
+  --index-page "index.html" \
   "${HTML_DIR}"
 tar --exclude='.DS_Store' -cvzf "${TAG}.tgz" ${PROJ_NAME}.docset
 
