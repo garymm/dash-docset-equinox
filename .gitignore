@@ -1,0 +1,5 @@
+*.tgz
+*.docset
+.DS_Store
+*.bak
+.venv

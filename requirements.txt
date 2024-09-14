@@ -1,0 +1,2 @@
+beautifulsoup4<5.0.0
+doc2dash==3.1.0
